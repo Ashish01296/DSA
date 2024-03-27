@@ -17,3 +17,4 @@ for i in a:
 
 print(b)
     
+# o/p:   [1,3,6,10]

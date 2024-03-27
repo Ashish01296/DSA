@@ -9,3 +9,4 @@ for i in range(len(a)):
 
 print(b)
 
+# [42, 5775, 34, 45, 3556]

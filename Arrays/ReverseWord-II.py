@@ -2,7 +2,7 @@ s =  "Mr Ding"
 
 def reverseWords(self, s):
         def reverse_word(word):
-            return word[::-1]
+            return word[::-1  ] # "rM gniD"
 
         eg = s.split()
         reversed_words = [reverse_word(word) for word in eg]
@@ -10,3 +10,6 @@ def reverseWords(self, s):
        
 
 # "rM gniD"
+
+
+print(s.split())

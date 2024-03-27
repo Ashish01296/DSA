@@ -18,3 +18,8 @@ for i in a:
     b.append(sum)
 
 print(b)
+
+
+
+
+# [1]

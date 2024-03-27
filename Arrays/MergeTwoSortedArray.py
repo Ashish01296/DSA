@@ -36,4 +36,18 @@ def mergearray(a,b):
 print(mergearray(a,b))
 
 
-        
+#[1, 3, 3, 3, 3, 4, 9, 11]
+
+
+
+#Approache 2:
+
+"""
+m = len(a)
+n = len(b)
+
+a[0:m+n] = sorted(a[:m]+b[:n])
+
+print(a)
+
+"""
