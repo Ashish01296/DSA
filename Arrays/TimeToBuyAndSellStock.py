@@ -16,3 +16,9 @@ def BuyAndSellStock(prices):
 
 # Example usage
 print(BuyAndSellStock(a))  # Output: 5 (maximum profit that can be obtained is by buying at 1 and selling at 6)
+
+
+
+
+
+
