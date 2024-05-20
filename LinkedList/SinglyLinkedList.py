@@ -71,6 +71,16 @@ class LinkedList:
             new_node = Node(data)
             new_node.next = n.next
             n.next = new_node
+    
+
+    def delte_begin(self):
+
+        if self.head==None:
+            print("LL is empty")
+        
+        else:
+            n = self.head
+            self.head = n.next
 
 
  
@@ -98,7 +108,9 @@ l.add_end(40)
 l.add_end(60)
 l.given_node(50,40)
 
+l.delte_begin()
 
 
+l.print_ll()
 
 
